@@ -51,7 +51,7 @@ Public Class Form1
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         ' Clear all fields
-        cmbCars.Text = "Please Select"
+        cmbCars.Text = ""
         lblDisplayCar.Text = ""
         dgvPayments.Rows.Clear()
         dgvPayments.Columns.Clear()
